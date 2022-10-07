@@ -1,0 +1,122 @@
+* {
+    background-color: #cbced1;
+}
+
+body {
+    background-color: #cbced1;
+}
+
+.introbutton {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    color:rgb(26 149 81);
+    text-transform: uppercase;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-right: 5%;
+    height: 70px;
+    text-align: right;
+    background-color: white;
+    color: black;
+}
+
+input:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.calbutton {
+    font-size: 30px;
+    background-color: rgb(200, 235, 161);
+    width: 86px;
+    height: 55px;
+    border-radius: 26px;
+    margin: 5px;
+    box-shadow: 5px 5px gray;
+}
+
+.calbutton:hover {
+    transform: scale(1.1);
+}
+
+.calculator {
+    display: inline-block;
+    background-color: transparent;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 12px 12px 20px #727374,
+        -13px -13px 20px #8f8c8c;
+}
+
+@media screen and (max-width:600px) {
+    .calbutton {
+        font-size: 18px;
+        width: 66px;
+        height: 45px;
+        border-radius: 16px;
+        margin: 2px;
+        box-shadow: 3px 3px gray;
+    }
+
+    h1 {
+        font-size: 50px;
+        font-weight: 600;
+        text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+    1px 12px 4px rgb(16, 16, 16, 0.2),
+    1px 18px 6px rgb(16, 16, 16, 0.1),
+    1px 22px 18px rgb(16, 16, 16, 0.1),
+    1px 25px 40px rgb(16, 16, 16, 0.2);
+    }
+}
+
+@media screen and (max-width:450px) {
+    .calbutton {
+        font-size: 16px;
+        width: 50px;
+        height: 38px;
+        border-radius: 14px;
+        margin: 2px;
+        box-shadow: 3px 3px gray;
+    }
+
+    .calculator {
+        padding: 15px;
+    }
+
+    input {
+        font-size: 20px;
+        border-radius: 16px;
+        height: 40px;
+    }
+}
