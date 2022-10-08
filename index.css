@@ -66,12 +66,12 @@ input:hover {
 .calculator {
     display: inline-block;
     background-color: transparent;
-    padding: 20px;
+    padding: 25px;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 72px;
     margin: 10px;
-    box-shadow: 12px 12px 20px #727374,
-        -13px -13px 20px #8f8c8c;
+    box-shadow: 12px 16px 0px #727374,
+     9px 5px 20px #8f8c8c;
 }
 
 @media screen and (max-width:600px) {
