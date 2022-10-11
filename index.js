@@ -1,15 +1,6 @@
 let screen = document.getElementById('screen');
 buttons = document.getElementsByClassName('calbutton');
-introscreen = document.getElementsByClassName('introbutton');
-
 let screenValue = '';
-
-for (item of introscreen) {
-    item.addEventListener('click', (e) => {
-        const intromainpage = document.getElementsByClassName('intropage');
-        intromainpage[0].style.visibility = 'hidden';
-    });
-}
 
 for (item of buttons) {
     item.addEventListener('click', (e) => {
@@ -28,7 +19,7 @@ for (item of buttons) {
             screen.value = screenValue
         }
 
-        else if (buttonText == 'C') {
+        else if (buttonText == 'Clr') {
             screenValue = "";
             screen.value = screenValue
         }

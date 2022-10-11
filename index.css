@@ -1,9 +1,9 @@
 * {
-    background-color: #cbced1;
+    background-color: #070707;
 }
 
 body {
-    background-color: #cbced1;
+    background-color:#070707;
 }
 
 .introbutton {
@@ -34,7 +34,7 @@ table {
 input {
     font-size: 30px;
     border: 2px solid;
-    border-radius: 25px;
+    border-radius: 15px;
     margin-bottom: 10px;
     width: 100%;
     padding-right: 5%;
@@ -51,16 +51,24 @@ input:hover {
 
 .calbutton {
     font-size: 30px;
-    background-color: rgb(200, 235, 161);
+    background-color: rgb(72 226 163);
     width: 86px;
     height: 55px;
-    border-radius: 26px;
+    border-radius: 28px;
     margin: 5px;
-    box-shadow: 5px 5px gray;
 }
 
 .calbutton:hover {
     transform: scale(1.1);
+}
+
+.greybg {
+    background-color: #d4d4d2;
+    color: #000000;
+}
+.yellowbg {
+    background-color: #ff9500;
+    color: white;
 }
 
 .calculator {
@@ -68,10 +76,9 @@ input:hover {
     background-color: transparent;
     padding: 25px;
     margin-top: 20px;
-    border-radius: 72px;
+    border-radius: 15px;
     margin: 10px;
-    box-shadow: 12px 16px 0px #727374,
-     9px 5px 20px #8f8c8c;
+    box-shadow: 10px 10px 0px #727374, 1px 0px 17px #8f8c8c
 }
 
 @media screen and (max-width:600px) {
@@ -83,6 +90,7 @@ input:hover {
         margin: 2px;
         box-shadow: 3px 3px gray;
     }
+
 
     h1 {
         font-size: 50px;
